@@ -1,7 +1,7 @@
-#author 	: https://github.com/Brouss3
-#date start	: 2018/01/30
-#date end	: 2018/02/03
-#version	: 0.0
+#author     : https://github.com/Brouss3
+#date start : 2018/01/30
+#date end   : 2018/02/03
+#version    : 0.0
 #licence    : GPL
 from math import sqrt as msqrt,log as mlog
 
