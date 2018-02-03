@@ -3,8 +3,9 @@
 #date end   : 2018/02/03
 #version    : 0.0
 #licence    : GPL
-from math import sqrt as msqrt,log as mlog
 
+
+from math import sqrt as msqrt,log as mlog
 
 #original seed square root function
 def sqNear0(lf):
