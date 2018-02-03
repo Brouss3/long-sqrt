@@ -1,5 +1,10 @@
-
+#author 	: https://github.com/Brouss3
+#date start	: 2018/01/30
+#date end	: 2018/02/03
+#version	: 0.0
+#licence    : GPL
 from math import sqrt as msqrt,log as mlog
+
 
 #original seed square root function
 def sqNear0(lf):
@@ -13,7 +18,7 @@ def sqNear0(lf):
     r1=r0*int(fl*10**10)//10**20
     return(r1)
 
-#after a while I thought I made complicated something I could do more simply
+#after a while I thought I made the seed overcomplicated
 def sqNear1(lf):
     le=int(mlog(lf,10)//2)*2
     if le <100:
