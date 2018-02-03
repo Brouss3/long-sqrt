@@ -1,4 +1,5 @@
 #author     : https://github.com/Brouss3
+#language   : python 2.x
 #date start : 2018/01/30
 #date end   : 2018/02/03
 #version    : 0.0
