@@ -10,12 +10,12 @@ Goals:
 Usage:
 ======
     
-from longSqrt import lsqrt,sqNear1
-# (sqNear1 optional, for alternate seed sqrt func)
-x=119**300+11**9999+7**53   #or any long int
-print(lsqrt(x))                  #voila
-y=lsqrt(x,sqNear1)
-print(y)
+	from longSqrt import lsqrt,sqNear1
+	# (sqNear1 optional, for alternate seed sqrt func)
+	x=119**300+11**9999+7**53   #or any long int
+	print(lsqrt(x))                  #voila
+	y=lsqrt(x,sqNear1)
+	print(y)
 
 
 Last word:
