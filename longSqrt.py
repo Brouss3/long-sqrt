@@ -12,8 +12,6 @@ def sqNear0(lf):
     assert(lf>=0)
     d=int(mlog(lf,10))
     r0=10**((d)//2)
-    if(r0**2>lf ):
-        assert(False)
     fl=lf*10**(2*10)//r0**2
     fl=msqrt(fl)
     r1=r0*int(fl*10**10)//10**20
